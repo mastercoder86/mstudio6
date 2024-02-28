@@ -1,0 +1,159 @@
+@keyframes visible1Anim{
+    0%{
+        height:20px;
+    }
+    25%{height:40px;}
+    50%{
+        height:70px;
+    }
+    100%{height:auto;}
+    
+}
+@keyframes not_visibleAnim{
+    0%{
+        height:80px;
+    }
+    25%{height:60px;}
+    50%{
+        height:30px;
+    }
+    100%{height:0px;
+    ovverflow:hidden;}
+}
+.logo{
+    width:300px;
+    height:180px;
+    margin-left: 20px;
+    z-index:-1;
+}
+.head1{
+    height:auto !important;
+}
+.head1 nav{
+    margin-top:50px;
+    vertical-align: middle;
+}
+.mobilemenu{
+    margin-left:250px;
+    margin-top: -100px;
+}
+.not_visible{
+    height:0px;
+    overflow:hidden;
+    animation-name: not_visibleAnim;
+    animation-duration: 1s;
+   
+}
+.visible1{
+    overflow:hidden;
+    animation-name: visible1Anim;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    
+}
+.reg{
+    position: relative;
+}
+.registering{
+    position:fixed;
+    top:50%;;
+    left:50%;
+    background-color: #f5a425;
+    color:white;
+    padding:50px;
+    display:block;
+    
+}
+.sending{
+    position:fixed;
+    top:50%;;
+    left:30%;
+    background-color: #f5a425;
+    color:white;
+    padding:50px;
+    display:block;
+    
+}
+.registered{
+    display:none;
+}
+.login{
+    position:fixed;
+    top:50%;;
+    width:70%;
+    left:10%;
+    background-color: #f5a425;
+    color:white;
+    padding:50px;
+    display:block;
+    z-index:2;
+}
+.regLink{
+    color:white;
+    margin-left:50px;
+}
+.login1{
+    font-size: x-large;
+}
+.closeLogin{
+    position:absolute;
+    left: 95%;
+    top: -0px;
+}
+.addToCartBtn{
+    background-color: #f5a425;
+    color:white;
+}
+.greeting{
+    position:fixed;
+    top:30%;
+    left:80%;
+    background-color: #f5a425;
+    color: white;
+    padding:20px;
+    z-index:5;
+}
+.cart{
+    position:fixed;
+    top:30%;
+    left:10%;
+    background-color: #f5a425;
+    color: white;
+    padding:20px;
+    z-index:5;
+}
+.cart1{
+    position:fixed;
+    top:30%;
+    left:30%;
+    width:40%;
+    height:70%;
+    background-color: #f5a425;
+    color: white;
+    padding:50px;
+    overflow-y: scroll;
+    z-index:5;
+}
+.removeItem{
+    margin-left: 20%;;
+}
+.back_to_courses{
+    
+    width:100%;
+}
+button{
+    cursor:pointer;
+    
+}
+fieldset p{
+    color:#f5a425;
+}
+@media (max-width: 600px) {
+    .logo{
+        width:100px;
+        height:80px;
+        margin-left: 0px;
+    }
+    
+}
+
