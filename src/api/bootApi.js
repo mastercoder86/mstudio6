@@ -1,2 +1,2 @@
-const base_url = "http://localhost:8080";
+const base_url = "https://mstudio61-server-production.up.railway.app";
 export default base_url;
